@@ -1,4 +1,4 @@
-var players= {
+var players = {
 7: "Muhamed Besic",
 10: "Miralem Pjanic",
 11: "Edin Dzeko"
@@ -6,11 +6,11 @@ var players= {
 };
 function myFunction(myObj)
 {  
-   var plyerNumber = 10 ;
-   var player = players["10"];
+   var playerNumber = players[10] ;
+   var player = playerNumber;
    
     return player ;
 }
 
 console.log(myFunction(players));
-module.exports = myFunction(players, myFunction);
+module.exports = { players, myFunction };

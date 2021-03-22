@@ -4,20 +4,20 @@ function myFunction(checkProp)
   {
     title: "Titanic",
      song: "My Heart Will Go On",
-      genere:" drama"
+      genre: "drama"
 };
 if(myObj.hasOwnProperty(checkProp) )
 {
-  var myObj=myObj[checkProp]
+  var myObj=myObj[checkProp];
    return myObj;
 }
-return "Not found";
+return "Not Found";
     
 
 }
 console.log (myFunction("title"));
 console.log (myFunction("song"));
-console.log (myFunction("genere"));
+console.log (myFunction("genre"));
 console.log (myFunction("actor")); 
-myFunction();
+
 module.exports = myFunction;

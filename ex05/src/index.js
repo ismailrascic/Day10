@@ -12,5 +12,5 @@ function myFunction(name)
 
 }
 console.log(myFunction("Paragon"));
-myFunction(school); 
-module.exports = {school, myFunction}
+myFunction("Paragon"); 
+module.exports = { school, myFunction };

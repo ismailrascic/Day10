@@ -1,16 +1,15 @@
-var myPet =
-{
-species: "PitBull",
- name: "Riki",
+var myPet = {
+species: 'Pitbull',
+ name: 'Riki',
 legs: 4,
-friends: ["Tiki", "Taki"]
+friends: ['Tiki', 'Taki']
 };
 
-function myfunction(myObj)
+function myFunction(myObj)
 {
-return myObj;
+    return myObj;
 }
 
 
-console.log(myfunction(myPet));
-module.exports = {myPet, myfunction}
+console.log(myFunction(myPet));
+module.exports = { myPet, myFunction };

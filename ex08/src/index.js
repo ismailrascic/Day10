@@ -29,5 +29,11 @@ return username;
 
 
 console.log(getUsername('user2@mail.com'));
+console.log(getUsername('user3@mail.com'));
+console.log(getUsername('user4@mail.com'));
+console.log(getUsername('user5@mail.com'));
+console.log(getUsername('user6@mail.com'));
+console.log(getUsername(' "" '));
+
 getUsername('user2@mail.com');
-module.export = getUsername;
+module.exports = getUsername;
